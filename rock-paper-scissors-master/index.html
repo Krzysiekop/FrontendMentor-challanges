@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="images/logo.svg" alt="" srcset="" />
+      <div class="score">
+        <div class="human_score">
+          Human score: <span class="human_score--value">0</span>
+        </div>
+        <div class="computer_score">
+          Computer score: <span class="computer_score--value">0</span>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="three_powers">
+        <img class="triangle" src="images/bg-triangle.svg" alt="" srcset="" />
+
+        <div class="paper_container">
+          <div class="white_space"></div>
+          <img class="paper" src="images/icon-paper.svg" alt="" srcset="" />
+        </div>
+        <div class="rock_container">
+          <div class="white_space"></div>
+          <img class="rock" src="images/icon-rock.svg" alt="" srcset="" />
+        </div>
+        <div class="scissors_container">
+          <div class="white_space"></div>
+          <img
+            class="scissors"
+            src="images/icon-scissors.svg"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <img src="" alt="" srcset="" />
+      </div>
+
+      <div class="fight">
+        <div class="human_choice"></div>
+
+        <div class="medium_wrapper">
+          <div class="result_text">You win</div>
+          <button class="again">Again?</button>
+        </div>
+
+        <div class="computer_choice"></div>
+      </div>
+      <button class="reset">Reset Score</button>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
