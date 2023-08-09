@@ -8,6 +8,7 @@ https://www.frontendmentor.io/challenges
 + https://krzysiekop.github.io/advice-generator-app/ (2 JUNIOR)
 + https://krzysiekop.github.io/ecommerce-product-page-main/ (3 INTERMEDIATE)
 + https://krzysiekop.github.io/Interactive-card-details-form/ (3 INTERMEDIATE)
++ https://krzysiekop.github.io/easybank-landing-page-master/ (3 INTERMEDIATE)
 + https://krzysiekop.github.io/rest-countries-api-with-color-theme-switcher-master/ (4 ADVANCED)
 + https://krzysiekop.github.io/scissors-paper-rock-js/ (4 ADVANCED)
 
